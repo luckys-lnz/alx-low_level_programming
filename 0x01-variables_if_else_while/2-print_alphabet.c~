@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ *main - A program to output the letters of the Alphabet
+ *Return: 0.
+ */
+int main(void)
+{
+	char alphabets;
+
+	for(alphabets = 'a'; alphabets = 'z'; alphabets++)
+	  {
+	    putchar(alphabets);
+	  }
+	
+	return (0);
+	
+}
