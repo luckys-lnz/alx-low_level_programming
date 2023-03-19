@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	int numb;
+	int num;
 
-	for (numb = 0; num < 10; numb++)
-		printf("%d", numb);
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
 
 	printf("\n");
 
