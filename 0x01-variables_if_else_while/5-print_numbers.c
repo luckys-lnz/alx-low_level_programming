@@ -1,15 +1,18 @@
 #include <stdio.h>
+
 /**
- *main - a program that outputs numbers of base 10.
+ * main - Prints all single digit numbers of base 10 starting from 0.
  *
- *Return: 0
+ * Return: 0.
  */
 int main(void)
 {
 	int numb;
 
-	for (numb = 0; numb < 10; numb++)
-		print("%d", numb);
-	printf('\n');
+	for (numb = 0; num < 10; numb++)
+		printf("%d", numb);
+
+	printf("\n");
+
 	return (0);
 }
