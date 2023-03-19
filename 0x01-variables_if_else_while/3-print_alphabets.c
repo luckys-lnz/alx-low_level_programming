@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time>
+#include <time.h>
 /**
  *main - A program to print the alphabets in uppercase and then lowercase
  *       A-Z and a-z
