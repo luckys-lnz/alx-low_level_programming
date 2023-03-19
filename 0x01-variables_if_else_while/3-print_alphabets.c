@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time>
 /**
  *main - A program to print the alphabets in uppercase and then lowercase
  *       A-Z and a-z
@@ -14,6 +16,7 @@ putchar(ch);
 for (ch = 'a'; ch <= 'z' ch++)
 {
 putchar(ch);
+putchar('\n')
 }
 return (0);
 }
