@@ -1,5 +1,5 @@
 #include "lucky.h"
-
+#include "main.h"
 /**
   * main - execution starts here
   *
