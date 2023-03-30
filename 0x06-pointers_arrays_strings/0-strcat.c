@@ -1,21 +1,28 @@
 #include "main.h"
 
 /**
- * memset - Fills the first n bytes of the memory area
- *          pointed to by @s with the constant byte @c.
- * @s: A pointer to the memory area to be filled.
- * @c: The character to fill the memory area with.
- * @n: The number of bytes to be filled.
+ * _strcat - function that concatenates
+ *          two strings.
  *
- * Return: A pointer to the filled memory area @s.
- */
-void *_memset(void *s, int c, size_t n)
+ * @dest: pointer to destnation input
+ * @src: pointer to source input
+ *
+ * Return: pointer to resulting string @dest
+*/
+
+char *_strcat(char *dest, char *src)
 {
-	unsigned int index;
-	unsigned char *memory = s, value = c;
+	int c, c2;
 
-	for (index = 0; index < n; index++)
-		memory[index] = value;
+	c = 0;
+	/*find the size of dest array*/
+	while (dest[c])
+		c++;
 
-	return (memory);
+	/* iterate through each src array value without the null byte*/
+	for (c2 = 0; src[c2] ; c2++)
+		/*append src[c2] to dest[c] while overwritting the null byte in dest*/
+		dest[c++] = src[c2];
+
+	return (dest);
 }
