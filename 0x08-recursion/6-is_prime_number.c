@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * check - checks to see if number is prime
+ * prym - checks to see if number is prime
  * @a:int
  * @b:int
  * Return:int
