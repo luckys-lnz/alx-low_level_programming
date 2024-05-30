@@ -1,24 +1,14 @@
 #!/usr/bin/python3
-"""
-This module defines a function that calculates
-the perimeter of an island
-described in a 2D grid.
-"""
+"""Defines an island perimeter measuring function."""
 
 
 def island_perimeter(grid):
-    """
-    Calculates the perimeter of an island
-    described in a 2D grid.
-
+    """Return the perimiter of an island.
+    The grid represents water by 0 and land by 1.
     Args:
-        grid (list of list of integers):
-            A 2D grid representing the island.
-            0 represents a water zone,
-            and 1 represents a land zone.
-
+        grid (list): A list of list of integers representing an island.
     Returns:
-        int: The perimeter of the island.
+        The perimeter of the island defined in grid.
     """
     perimeter = 0
     rows = len(grid)
